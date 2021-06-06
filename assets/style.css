@@ -1,0 +1,209 @@
+body, html{
+  font-family: 'Noto-Sans', sans-serif;
+  background: #161616;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+  font-family: 'Noto-Sans';
+  font-style: normal;
+  src: url(notosans-regular.woff2);
+  font-display: block;
+  font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Brands';
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url('icons.woff2')
+}
+
+@font-face {
+  font-family: 'Material Icons Round';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/material-icons-round.woff2) format('woff2');
+}
+
+.material-icons-round {
+  font-family: 'Material Icons Round';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.fab {
+	font-family: 'Font Awesome 5 Brands';
+	font-weight: 400;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+}
+
+.fa-discord:before { content: "\f392"; } .fa-lastfm:before  { content: "\f202"; } .fa-github:before  { content: "\f09b"; } .fa-twitter:before { content: "\f099"; }
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.container h1{
+  font-size: 35px;
+}
+
+.container h2{
+  font-size: 20px;
+  text-align: center;
+}
+
+.logo{
+  object-fit: cover;
+  border-style: solid;
+  border: 0px;
+  border-radius: 30px;
+}
+
+nav{
+  background-color: rgba(19, 19, 19, .5);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+	opacity: 100%;
+	font-size: 19px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 1;
+  text-align: center;
+  
+}
+
+nav ul{
+  text-align: left;
+  display: none;
+}
+
+section{
+  text-align: center;
+  width: clamp(300px, 90%, 800px);
+}
+
+section h3{
+  text-align: center;
+  font-size: 24px;
+}
+
+p{
+  color: #999797;
+  font-size: 16px;
+}
+
+.buttflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a{
+  color: #2b2bb1;
+  text-decoration: none;
+}
+
+a:hover{
+  transition: .15s;
+  filter: brightness(50%);
+}
+
+a:active{
+  transition: .15s;
+  filter: brightness(50%);
+}
+
+.butt{
+  padding: 15px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 530;
+}
+
+.butt:hover{
+  text-decoration: none;
+}
+
+.disc{
+  margin-right: 15px;
+  background-color: #4E5D94;
+}
+
+.git{
+  background-color: #238637;
+}
+section h4{
+  list-style: none;
+  font-size: 18px;
+}
+
+.imggrid{
+  width: 75%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}  
+
+.imggrid img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.imggrid div:hover{
+  transition: .2s;
+  filter: brightness(75%);
+}
+
+.imggrid div:active{
+  transition: .2s;
+  filter: brightness(50%);
+}
+
+.warning{
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 30px;
+  width: clamp(500px, 65%, 600px);
+  background-color: #cab40f;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  font-size: 13px;
+  justify-content: center;
+}
+.warning p{
+  display: inline;
+   color: black;
+}
