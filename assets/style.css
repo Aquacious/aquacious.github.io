@@ -195,7 +195,7 @@ section h4{
   display: inline-flex;
   padding: 5px;
   border-radius: 30px;
-  width: clamp(500px, 65%, 600px);
+  width: clamp(480px, 65%, 600px);
   background-color: #cab40f;
   margin: 0 auto;
   margin-bottom: 15px;
