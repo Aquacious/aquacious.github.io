@@ -22,29 +22,6 @@ body, html{
 	src: url('icons.woff2')
 }
 
-@font-face {
-  font-family: 'Material Icons Round';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/assets/material-icons-round.woff2) format('woff2');
-}
-
-.material-icons-round {
-  font-family: 'Material Icons Round';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
-
 .fab {
 	font-family: 'Font Awesome 5 Brands';
 	font-weight: 400;
@@ -57,7 +34,7 @@ body, html{
 	line-height: 1;
 }
 
-.fa-discord:before { content: "\f392"; } .fa-lastfm:before  { content: "\f202"; } .fa-github:before  { content: "\f09b"; } .fa-twitter:before { content: "\f099"; }
+.fa-discord:before { content: "\f392"; } .fa-github:before  { content: "\f09b"; }
 
 .container{
   display: flex;
@@ -81,26 +58,6 @@ body, html{
   border-style: solid;
   border: 0px;
   border-radius: 30px;
-}
-
-nav{
-  background-color: rgba(19, 19, 19, .5);
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
-	backdrop-filter: saturate(180%) blur(20px);
-	opacity: 100%;
-	font-size: 19px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	margin: 0 auto;
-	z-index: 1;
-  text-align: center;
-  
-}
-
-nav ul{
-  text-align: left;
-  display: none;
 }
 
 section{
@@ -131,7 +88,7 @@ a{
 
 a:hover{
   transition: .15s;
-  filter: brightness(50%);
+  filter: brightness(75%);
 }
 
 a:active{
@@ -160,6 +117,7 @@ a:active{
 .git{
   background-color: #238637;
 }
+
 section h4{
   list-style: none;
   font-size: 18px;
@@ -189,21 +147,4 @@ section h4{
 .imggrid div:active{
   transition: .2s;
   filter: brightness(50%);
-}
-
-.warning{
-  display: inline-flex;
-  padding: 5px;
-  border-radius: 30px;
-  width: clamp(480px, 65%, 600px);
-  background-color: #cab40f;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  padding-bottom: 0;
-  font-size: 13px;
-  justify-content: center;
-}
-.warning p{
-  display: inline;
-   color: black;
 }
